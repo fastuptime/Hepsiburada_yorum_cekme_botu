@@ -14,7 +14,7 @@ log('Bu program Can Tarafından Yapılmıştır.')
 log('https://fastuptime.com ve https://speedsmm.com üzerinden bize ulaşabilirsiniz.')
 log('Program başlatıldı')
 
-urun_url = 'https://www.hepsiburada.com/blu-navy-elbise-blunavy-viscon-cicek-detayli-elbise-p-HBCV000028SDAW' # Ürün URL HEPSİBURADA
+urun_url = input("Ürün Linki Sonuna / Koymayın: ") #'https://www.hepsiburada.com/blu-navy-elbise-blunavy-viscon-cicek-detayli-elbise-p-HBCV000028SDAW'  Ürün URL HEPSİBURADA
 
 try:
     driver.get(urun_url)
